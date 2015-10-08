@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		2B8604131BB24A47006F7478 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8604121BB24A47006F7478 /* main.m */; };
 		2B8604161BB24A47006F7478 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8604151BB24A47006F7478 /* AppDelegate.m */; };
-		2B8604191BB24A47006F7478 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8604181BB24A47006F7478 /* ViewController.m */; };
+		2B8604191BB24A47006F7478 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B8604181BB24A47006F7478 /* ViewController.mm */; };
 		2B86041C1BB24A47006F7478 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B86041A1BB24A47006F7478 /* Main.storyboard */; };
 		2B86041E1BB24A47006F7478 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B86041D1BB24A47006F7478 /* Images.xcassets */; };
 		2B8604211BB24A47006F7478 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B86041F1BB24A47006F7478 /* LaunchScreen.xib */; };
 		2B86042D1BB24A47006F7478 /* ____demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B86042C1BB24A47006F7478 /* ____demoTests.m */; };
+		2B8604371BB25B1B006F7478 /* BaiduMapAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8604361BB25B1B006F7478 /* BaiduMapAPI.framework */; };
+		2B8604391BB25B51006F7478 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8604381BB25B51006F7478 /* CoreLocation.framework */; };
+		2B86043B1BB25B59006F7478 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B86043A1BB25B59006F7478 /* QuartzCore.framework */; };
+		2B86043D1BB25B67006F7478 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B86043C1BB25B67006F7478 /* OpenGLES.framework */; };
+		2B86043F1BB25B78006F7478 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B86043E1BB25B78006F7478 /* SystemConfiguration.framework */; };
+		2B8604411BB25B80006F7478 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8604401BB25B80006F7478 /* CoreGraphics.framework */; };
+		2B8604431BB25B8B006F7478 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8604421BB25B8B006F7478 /* Security.framework */; };
+		2B8604451BB282F4006F7478 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B8604441BB282F4006F7478 /* mapapi.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +41,21 @@
 		2B8604141BB24A47006F7478 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B8604151BB24A47006F7478 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2B8604171BB24A47006F7478 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2B8604181BB24A47006F7478 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B8604181BB24A47006F7478 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		2B86041B1BB24A47006F7478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B86041D1BB24A47006F7478 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2B8604201BB24A47006F7478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2B8604261BB24A47006F7478 /* 百度地图demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百度地图demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B86042B1BB24A47006F7478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B86042C1BB24A47006F7478 /* ____demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____demoTests.m"; sourceTree = "<group>"; };
+		2B8604361BB25B1B006F7478 /* BaiduMapAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI.framework; sourceTree = "<group>"; };
+		2B8604381BB25B51006F7478 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2B86043A1BB25B59006F7478 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2B86043C1BB25B67006F7478 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2B86043E1BB25B78006F7478 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2B8604401BB25B80006F7478 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B8604421BB25B8B006F7478 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2B8604441BB282F4006F7478 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8604431BB25B8B006F7478 /* Security.framework in Frameworks */,
+				2B8604411BB25B80006F7478 /* CoreGraphics.framework in Frameworks */,
+				2B86043F1BB25B78006F7478 /* SystemConfiguration.framework in Frameworks */,
+				2B86043D1BB25B67006F7478 /* OpenGLES.framework in Frameworks */,
+				2B86043B1BB25B59006F7478 /* QuartzCore.framework in Frameworks */,
+				2B8604391BB25B51006F7478 /* CoreLocation.framework in Frameworks */,
+				2B8604371BB25B1B006F7478 /* BaiduMapAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,12 @@
 		2B8604041BB24A47006F7478 = {
 			isa = PBXGroup;
 			children = (
+				2B8604421BB25B8B006F7478 /* Security.framework */,
+				2B8604401BB25B80006F7478 /* CoreGraphics.framework */,
+				2B86043E1BB25B78006F7478 /* SystemConfiguration.framework */,
+				2B86043C1BB25B67006F7478 /* OpenGLES.framework */,
+				2B86043A1BB25B59006F7478 /* QuartzCore.framework */,
+				2B8604381BB25B51006F7478 /* CoreLocation.framework */,
 				2B86040F1BB24A47006F7478 /* 百度地图demo */,
 				2B8604291BB24A47006F7478 /* 百度地图demoTests */,
 				2B86040E1BB24A47006F7478 /* Products */,
@@ -84,7 +113,7 @@
 				2B8604141BB24A47006F7478 /* AppDelegate.h */,
 				2B8604151BB24A47006F7478 /* AppDelegate.m */,
 				2B8604171BB24A47006F7478 /* ViewController.h */,
-				2B8604181BB24A47006F7478 /* ViewController.m */,
+				2B8604181BB24A47006F7478 /* ViewController.mm */,
 				2B86041A1BB24A47006F7478 /* Main.storyboard */,
 				2B86041D1BB24A47006F7478 /* Images.xcassets */,
 				2B86041F1BB24A47006F7478 /* LaunchScreen.xib */,
@@ -96,6 +125,8 @@
 		2B8604101BB24A47006F7478 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2B8604441BB282F4006F7478 /* mapapi.bundle */,
+				2B8604361BB25B1B006F7478 /* BaiduMapAPI.framework */,
 				2B8604111BB24A47006F7478 /* Info.plist */,
 				2B8604121BB24A47006F7478 /* main.m */,
 			);
@@ -200,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B86041C1BB24A47006F7478 /* Main.storyboard in Resources */,
+				2B8604451BB282F4006F7478 /* mapapi.bundle in Resources */,
 				2B8604211BB24A47006F7478 /* LaunchScreen.xib in Resources */,
 				2B86041E1BB24A47006F7478 /* Images.xcassets in Resources */,
 			);
@@ -219,7 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B8604191BB24A47006F7478 /* ViewController.m in Sources */,
+				2B8604191BB24A47006F7478 /* ViewController.mm in Sources */,
 				2B8604161BB24A47006F7478 /* AppDelegate.m in Sources */,
 				2B8604131BB24A47006F7478 /* main.m in Sources */,
 			);
@@ -347,8 +379,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/百度地图demo",
+				);
 				INFOPLIST_FILE = "百度地图demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -357,8 +394,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/百度地图demo",
+				);
 				INFOPLIST_FILE = "百度地图demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -416,6 +458,7 @@
 				2B8604321BB24A47006F7478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B8604331BB24A47006F7478 /* Build configuration list for PBXNativeTarget "百度地图demoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +467,7 @@
 				2B8604351BB24A47006F7478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
